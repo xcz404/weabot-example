@@ -2,19 +2,19 @@
 const fs = require("fs");
 
 global.restAPIs = "https://api-xcoders.xyz";
-global.apikeys = "your apikey";
-global.packname = "XCodersBOT";
-global.author = "By Farhannn";
-global.watermark = "𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐅𝐚𝐫𝐡𝐚𝐧𝐧𝐧𝐧𝐧";
-global.ownerNumber = ["62xxxxxxxxxx@s.whatsapp.net"];
+global.apikeys = "4PoXFi225U";
+global.packname = "SayuOfc";
+global.author = "By Rafa";
+global.watermark = "Rafasurya";
+global.ownerNumber = ["6285861870154@s.whatsapp.net"];
 global.thumbnails = fs.readFileSync("./image/thumbnail.png");
 global.banChats = false;
 global.offline = false;
-global.multiprefix = false;
+global.multiprefix = true;
 global.nonprefix = false;
 global.prefix = "#";
 global.browserDescription = {
-  set_name: "Xcoders",
+  set_name: "Rafa",
   set_browser: "Safari"
 };
 global.response = {
