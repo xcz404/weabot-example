@@ -164,7 +164,7 @@ module.exports = index = async (xcoders, love, getbattery) => {
 		switch (command) {
 			case 'help':
 			case 'menu':
-				const fitur = Features(prefix);
+				const fitur = Features(prefix, pushname2, Ucapan);
 				const allFitur = fitur.length / 24;
 				const FiturCount = allFitur.toString().split(".")[0];
 				xcoders.sendMessage(from,
